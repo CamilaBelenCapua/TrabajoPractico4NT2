@@ -1,6 +1,6 @@
 <section class="src-componentes-formulario-av">
   <div class="jumbotron">
-    <h2>Formulario vue-form</h2>
+    <h3 class="formulario">Formulario vue-form</h3>
     <hr>
     <hr>
     <br>
@@ -61,7 +61,7 @@
       <br>
 
       <validate tag="div">
-        <label for="email">email</label>
+        <label for="email">Email</label>
         <input 
           type="email"
           id="email"
@@ -83,8 +83,24 @@
     </vue-form>      
 
     <hr>
-    <p><u>datos</u></p>
-    <pre>{{ datos }}</pre>
+
+    <table>
+      <p><u>Datos</u></p>
+      <tr>
+        <td>Nombre completo</td>
+        <td>{{datos.nombreCompleto}}</td>
+      </tr>
+
+      <tr>
+        <td>Edad</td>
+        <td>{{datos.edad}}</td>
+      </tr>
+
+      <tr>
+        <td>Email</td>
+        <td>{{datos.email}}</td>
+      </tr>
+    </table>
 
   </div>
 </section>

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueForm from 'vue-form'
+import './form'
 
 var options = {
     validators: {
