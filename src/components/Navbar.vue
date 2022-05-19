@@ -12,7 +12,7 @@
           </li>
 
            <li class="nav-item">
-            <router-link to="/usuarios">
+            <router-link to="/apiRest">
               <a class="nav-link" href="#">Usuarios</a>
             </router-link>
           </li>
